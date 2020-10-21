@@ -11,6 +11,8 @@ libraryDependencies ++= Seq(
 libraryDependencies +=
     "org.scalatest" %% "scalatest" % "3.2.0" % Test
 
+libraryDependencies ++= Seq("org.specs2" %% "specs2-core" % "4.10.0" % "test")
+
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
