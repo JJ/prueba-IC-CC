@@ -21,3 +21,5 @@ lazy val root = (project in file(".")).
     name := "Hitos",
 
   )
+
+cancelable in Global := true
